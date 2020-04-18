@@ -1,9 +1,9 @@
-from gpiozero.pins.mock import MockFactory
-from gpiozero import Device
-Device.pin_factory = MockFactory()
+# from gpiozero.pins.mock import MockFactory
+# from gpiozero import Device
+# Device.pin_factory = MockFactory()
 
-from device import S63
-#from simulator import S63
+# from device import S63
+from simulator import S63
 
 phone = S63()
 

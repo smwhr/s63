@@ -5,6 +5,15 @@ import rx
 from rx import Observable
 from rx import operators as ops
 
+KEYPAD = [
+    ["1", "2", "3"],
+    ["4", "5", "6"],
+    ["7", "8", "9"],
+    ["*", "0", "#"]
+]
+ROW_PINS = [19, 16, 6, 20]
+COL_PINS = [11, 25, 9]
+
 
 led = RGBLED(red=4, green=14, blue=15)
 # loading : red

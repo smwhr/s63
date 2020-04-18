@@ -30,15 +30,15 @@ class S63(object):
         self.on_compose = lambda: None
 
     def init_hanger(self):
-        comb = Button(3)
+        self.comb = Button(3)
 
         def when_pressed():
             self.comb_when_pressed()
         def when_released():
             self.comb_when_released()
 
-        comb.when_pressed = when_pressed
-        comb.when_released = when_released
+        self.comb.when_pressed = when_pressed
+        self.comb.when_released = when_released
 
     def init_buttons(self):
         self.buttons = {}

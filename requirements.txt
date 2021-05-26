@@ -1,0 +1,15 @@
+certifi==2020.12.5
+chardet==4.0.0
+colorzero==1.1
+gpiozero==1.5.1
+idna==2.10
+pkg-resources==0.0.0
+playsound==1.2.2
+requests==2.25.1
+RPi.GPIO==0.7.0
+ruamel.yaml==0.16.12
+ruamel.yaml.clib==0.2.2
+Rx==3.1.1
+urllib3==1.26.3
+vext==0.7.4
+vext.gi==0.7.4

@@ -1,4 +1,4 @@
-# S63 touchpad listened
+# S63 touchpad listener
 
 BluePhone (Raspberry Pi Model B Rev 2 000f) Config : 
 

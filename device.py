@@ -14,8 +14,9 @@ KEYPAD = [
     ["7", "8", "9"],
     ["*", "0", "#"]
 ]
-ROW_PINS = [19, 16, 6, 20]
-COL_PINS = [11, 25, 9]
+ROW_PINS = [7 , 8, 25, 24]
+COL_PINS = [11, 9, 10]
+HANG_PIN = 23
 
 class S63(object):
     def __init__(self):
@@ -30,7 +31,7 @@ class S63(object):
         self.on_compose = lambda: None
 
     def init_hanger(self):
-        self.comb = Button(3)
+        self.comb = Button(HANG_PIN)
 
         def when_pressed():
             self.comb_when_pressed()

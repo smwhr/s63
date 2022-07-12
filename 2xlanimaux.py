@@ -71,7 +71,7 @@ def compose(n):
     if n == "*":
         player.seek(player.time - 3)
     if n == "#":
-        player.seek(player.time - 3)
+        player.seek(player.time + 3)
 
 
 phone.comb_when_pressed = say_hello
